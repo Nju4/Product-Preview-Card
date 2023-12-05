@@ -1,0 +1,126 @@
+body {
+    Height: 100vh;
+
+    }
+
+.background {
+    width: 0 auto; 
+    height: 600px; 
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: hsl(30, 38%, 92%);
+}
+.card {
+    display: flex;
+    justify-content: center;
+    width: 0 auto; 
+    height: 610px; 
+    margin: 250 auto;
+    background-color: hsl(30, 38%, 92%);
+    
+}
+
+img {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.parfume {
+    border-radius: 20px;
+    margin: 0px; 
+    border-radius: 0px 20px 20px 0px;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 5px;
+    color: hsla(228, 12%, 48%, 0.459);
+    font-weight: 500px;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: Fraunces;
+    letter-spacing: 0.75px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 500px;
+    width: 300px;
+}
+
+p {
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 180%;
+    font-weight: 700px;
+    width: 300px
+    
+}
+.cost {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.number {
+    margin: 0px;
+    display: flex;
+    font-family: Fraunces;
+
+}
+
+span {
+    font-size: 36px;
+    font-weight: 700px;
+    font-family: Fraunces;
+    color:hsl(158, 36%, 37%);
+    margin-right: 50px;
+}
+button {
+    display: flex;
+    justify-content: center;
+    padding: 20px 110px 20px 110px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+    background-color:  hsl(212, 21%, 14%);
+}
+
+  
+.icon-button img {
+    margin-right: 12px;
+  }
+  
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.attribution {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Fraunces;
+}
+  
+@media (max-width: 600px) {
+    .card {
+      flex-direction: column;
+    }
+}
+
+
